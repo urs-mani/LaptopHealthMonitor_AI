@@ -1,0 +1,39 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Local/editor files
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+.DS_Store
+
+# Local agent metadata
+.agents/
+.codex/
+
+# Runtime and generated output
+logs/
+tmp/
+exports/
+reports/output/
+*.log
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Raw training dataset (downloaded/generated separately)
+ai/dataset/data/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example

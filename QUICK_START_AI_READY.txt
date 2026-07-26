@@ -1,0 +1,15 @@
+FIRST RUN
+=========
+1. Extract the ZIP completely.
+2. Double-click RUN_LAPTOP_HEALTH_MONITOR.bat.
+3. Keep internet enabled during first setup.
+4. The application runs without a dataset using condition-based prediction.
+
+ENABLE THE AI MODEL LATER
+=========================
+1. Put the NASA dataset in ai\dataset.
+2. Run CHECK_DATASET.bat.
+3. Run TRAIN_AI_MODEL.bat.
+4. Restart the application.
+
+Read DATASET_SETUP_GUIDE.txt for exact accepted formats.

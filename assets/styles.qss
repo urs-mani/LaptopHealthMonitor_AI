@@ -1,0 +1,38 @@
+QMainWindow { background: #eef2ff; }
+QWidget { font-family: "Segoe UI", sans-serif; color: #0f172a; }
+QFrame#sidebar { background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #0f172a, stop:0.6 #111827, stop:1 #0f172a); border-radius: 28px; }
+QLabel#titleLabel { color: white; font-size: 20px; font-weight: 800; margin: 16px; }
+QListWidget#navList { background: transparent; border: none; color: white; outline: none; font-size: 14px; }
+QListWidget#navList::item { padding: 14px 14px; border-radius: 16px; margin: 8px 0; color: #cbd5e1; }
+QListWidget#navList::item:hover { background: rgba(255, 255, 255, 0.1); color: white; }
+QListWidget#navList::item:selected { background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #2563eb, stop:1 #1d4ed8); color: white; font-weight: 700; }
+QListWidget#navList::item:selected:hover { background: #1d4ed8; }
+QFrame.card, QFrame#chartCard, QFrame#sideCard, QFrame#overviewCard, QFrame.overviewBlock, QFrame.statCard, QFrame#statusCard, QFrame#summaryCard, QFrame#reportCard { background: white; border: 1px solid #e2e8f0; border-radius: 24px; }
+QFrame#overviewCard, QFrame#summaryCard, QFrame#reportCard { padding: 18px; }
+QFrame.overviewBlock, QFrame.statusBlock { padding: 18px; min-width: 140px; }
+QLabel.pageTitle { font-size: 32px; font-weight: 800; color: #111827; }
+QLabel.pageSubtitle { font-size: 14px; color: #475569; }
+QLabel.cardTitle { font-size: 13px; color: #64748b; }
+QLabel.cardValue { font-size: 24px; font-weight: 800; color: #0f172a; }
+QLabel.cardStatus { font-size: 13px; font-weight: 700; }
+QLabel.goodStatus { color: #16a34a; }
+QLabel.warningStatus { color: #f59e0b; }
+QLabel.dangerStatus { color: #dc2626; }
+QLabel.sectionHeader { font-size: 16px; font-weight: 700; color: #0f172a; }
+QLabel.sectionHint { font-size: 12px; color: #64748b; }
+QPushButton { background: #2563eb; color: white; border-radius: 14px; padding: 12px 18px; font-size: 13px; min-height: 40px; }
+QPushButton:hover { background: #1d4ed8; }
+QPushButton:disabled { background: #94a3b8; }
+QLineEdit, QSpinBox, QComboBox, QTextEdit, QTableWidget, QListWidget { border: 1px solid #e2e8f0; border-radius: 14px; padding: 10px; background: white; }
+QLineEdit { min-height: 40px; }
+QTableWidget::item { padding: 10px; }
+QHeaderView::section { background: #f8fafc; border: none; color: #475569; font-weight: 700; }
+QTableWidget { gridline-color: #e2e8f0; }
+QScrollBar:vertical { background: transparent; width: 10px; margin: 0 0 0 0; }
+QScrollBar::handle:vertical { background: rgba(37, 99, 235, 0.45); border-radius: 5px; }
+QScrollBar::handle:vertical:hover { background: rgba(37, 99, 235, 0.8); }
+QFrame#pageContainer { border-radius: 24px; background: transparent; }
+QLabel[statusLabel="true"] { font-weight: 700; }
+QLabel[statusClass="goodStatus"] { color: #16a34a; }
+QLabel[statusClass="warningStatus"] { color: #f59e0b; }
+QLabel[statusClass="dangerStatus"] { color: #dc2626; }

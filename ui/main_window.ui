@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowTitle">
+   <string>Laptop Health Monitor</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow { background: #f5f7fb; }
+QFrame#sidebar { background: #0f172a; border-radius: 18px; }
+QLabel#titleLabel { color: white; font-size: 18px; font-weight: 700; }
+QListWidget#navList { background: transparent; border: none; color: white; }
+QListWidget#navList::item { padding: 10px; border-radius: 10px; }
+QListWidget#navList::item:selected { background: #2563eb; color: white; }
+QStackedWidget { background: transparent; }
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="spacing">
+     <number>16</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="sidebar">
+      <property name="minimumWidth">
+       <number>240</number>
+      </property>
+      <property name="maximumWidth">
+       <number>260</number>
+      </property>
+      <layout class="QVBoxLayout" name="sidebarLayout">
+       <item>
+        <widget class="QLabel" name="titleLabel">
+         <property name="text">
+          <string>Laptop Health Monitor</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QListWidget" name="navList"/>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,16 @@
+LAPTOP HEALTH MONITOR - PROFESSIONAL SYSTEM DATA UPDATE
+
+Major changes
+- Cleaner professional light interface with rounded cards and improved navigation spacing.
+- New Complete System Data tab with live read-only telemetry and cached hardware inventory.
+- Collects CPU total/per-core load, frequencies, core counts, RAM, swap, storage capacity,
+  disk I/O, network throughput/totals, battery state, temperature, uptime, processes and threads.
+- On Windows, best-effort CIM inventory includes manufacturer, model, BIOS, CPU, GPU and OS build.
+- Prediction now evaluates all available condition signals and excludes unsupported optional sensors.
+- Data Coverage card shows how many valid live fields are available.
+- Complete system data can be exported to JSON from the System Data tab.
+
+Important accuracy note
+Temperature, battery wear/cycles and SSD SMART health depend on what Windows and the laptop
+firmware expose. Unsupported values are marked unavailable and are not replaced with random values.
+The Remaining Useful Life result is an academic condition-based estimate, not a manufacturer warranty.

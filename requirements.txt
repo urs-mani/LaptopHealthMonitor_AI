@@ -1,0 +1,13 @@
+# Tested with 64-bit CPython 3.11, 3.12 and 3.13 on Windows.
+# Versions are pinned to packages with pre-built Windows wheels.
+PyQt6==6.9.1
+PyQt6-sip==13.10.2
+pyqtgraph==0.13.7
+numpy==2.2.6
+pandas==2.3.3
+psutil==7.0.0
+scikit-learn==1.8.0
+joblib==1.5.2
+matplotlib==3.10.7
+reportlab==4.4.2
+openpyxl==3.1.5

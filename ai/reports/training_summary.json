@@ -1,0 +1,109 @@
+{
+  "dataset_rows": 2794,
+  "batteries": 34,
+  "train_batteries": [
+    "B0005",
+    "B0006",
+    "B0007",
+    "B0018",
+    "B0025",
+    "B0026",
+    "B0027",
+    "B0028",
+    "B0030",
+    "B0031",
+    "B0032",
+    "B0034",
+    "B0036",
+    "B0039",
+    "B0040",
+    "B0041",
+    "B0043",
+    "B0045",
+    "B0046",
+    "B0048",
+    "B0051",
+    "B0052",
+    "B0053",
+    "B0054",
+    "B0055",
+    "B0056"
+  ],
+  "test_batteries": [
+    "B0029",
+    "B0033",
+    "B0038",
+    "B0042",
+    "B0044",
+    "B0047",
+    "B0049",
+    "B0050"
+  ],
+  "best_model": "Extra Trees",
+  "regression": [
+    {
+      "model": "Extra Trees",
+      "MAE_cycles": 8.197493867712293,
+      "RMSE_cycles": 16.442761622965683,
+      "R2": 0.8860329913719982,
+      "MAPE_pct": 51.89652963518389
+    },
+    {
+      "model": "Gradient Boosting",
+      "MAE_cycles": 14.51193493350785,
+      "RMSE_cycles": 25.16042040079199,
+      "R2": 0.7331511014484833,
+      "MAPE_pct": 84.36609998852799
+    },
+    {
+      "model": "Random Forest",
+      "MAE_cycles": 11.981103228265813,
+      "RMSE_cycles": 25.930464185646507,
+      "R2": 0.7165671327318761,
+      "MAPE_pct": 69.74751481353726
+    }
+  ],
+  "classification": {
+    "accuracy": 0.9428571428571428,
+    "precision_weighted": 0.9445758231194423,
+    "recall_weighted": 0.9428571428571428,
+    "f1_weighted": 0.9430235532032961,
+    "labels": [
+      "Critical",
+      "Healthy",
+      "Warning"
+    ],
+    "confusion_matrix": [
+      [
+        129,
+        3,
+        0
+      ],
+      [
+        10,
+        292,
+        7
+      ],
+      [
+        7,
+        9,
+        173
+      ]
+    ]
+  },
+  "features": [
+    "cycle_index",
+    "capacity_ah",
+    "capacity_ratio",
+    "ambient_temperature",
+    "voltage_mean",
+    "voltage_min",
+    "voltage_max",
+    "current_mean",
+    "current_std",
+    "temperature_mean",
+    "temperature_max",
+    "duration_s"
+  ],
+  "validation": "Battery-group holdout; test batteries are not used during training."
+}

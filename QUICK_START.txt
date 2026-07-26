@@ -1,0 +1,25 @@
+LAPTOP HEALTH MONITOR - QUICK START
+===================================
+
+1. Extract the complete ZIP file.
+2. Open the extracted LaptopHealthMonitor folder.
+3. Double-click RUN_LAPTOP_HEALTH_MONITOR.bat.
+4. On the first run, the launcher creates a private .venv and installs packages.
+5. The application then opens automatically.
+
+Requirements
+------------
+- Windows 10 or Windows 11
+- Python 3.11, 3.12, or 3.13
+- Internet access only for the first package installation
+
+Main pages
+----------
+Dashboard, Monitor, Temperature, RUL Prediction, Health History,
+Recommendations, Storage Manager, Reports, Settings, and About.
+
+Notes
+-----
+- Temperature uses a hardware sensor when Windows exposes one.
+- Otherwise, the application displays a deterministic CPU/RAM-based estimate.
+- RUL is an academic condition-based estimate, not a manufacturer-certified failure date.
