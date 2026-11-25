@@ -1,4 +1,4 @@
-# Laptop Health Monitor — AI-Ready Edition
+# Laptop Health Monitor
 
 A professional, light-themed Windows desktop application for live laptop health monitoring, predictive maintenance, storage analysis, system inventory, reporting, and smart uninstallation.
 
